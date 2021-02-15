@@ -99,7 +99,7 @@ def handler():
    """
 
     # basic args setup
-    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser = argparse.ArgumentParser(description='Reboot AWS Instances')
     parser.add_argument('names', metavar='Name', type=str, nargs='+',
                         help='instance Name tag to reboot')
     parser.add_argument('--region', action='store', default='us-east-1')
